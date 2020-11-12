@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1913DFBF255CC88B006CD974 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1913DFBE255CC88B006CD974 /* Pacifico-Regular.ttf */; };
+		1913DFC2255CF9B9006CD974 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1913DFC1255CF9B9006CD974 /* InfoView.swift */; };
 		19D7E253255B85C700CF9136 /* Parsa_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E252255B85C700CF9136 /* Parsa_CardApp.swift */; };
 		19D7E255255B85C700CF9136 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E254255B85C700CF9136 /* ContentView.swift */; };
 		19D7E257255B85C900CF9136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D7E256255B85C900CF9136 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1913DFBE255CC88B006CD974 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		1913DFC1255CF9B9006CD974 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		19D7E24F255B85C700CF9136 /* Parsa Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parsa Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D7E252255B85C700CF9136 /* Parsa_CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsa_CardApp.swift; sourceTree = "<group>"; };
 		19D7E254255B85C700CF9136 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,7 +56,9 @@
 		19D7E251255B85C700CF9136 /* Parsa Card */ = {
 			isa = PBXGroup;
 			children = (
+				19D7E262255B8D1100CF9136 /* Fonts */,
 				19D7E252255B85C700CF9136 /* Parsa_CardApp.swift */,
+				1913DFC1255CF9B9006CD974 /* InfoView.swift */,
 				19D7E254255B85C700CF9136 /* ContentView.swift */,
 				19D7E256255B85C900CF9136 /* Assets.xcassets */,
 				19D7E25B255B85C900CF9136 /* Info.plist */,
@@ -67,6 +73,14 @@
 				19D7E259255B85C900CF9136 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19D7E262255B8D1100CF9136 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1913DFBE255CC88B006CD974 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1913DFBF255CC88B006CD974 /* Pacifico-Regular.ttf in Resources */,
 				19D7E25A255B85C900CF9136 /* Preview Assets.xcassets in Resources */,
 				19D7E257255B85C900CF9136 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19D7E255255B85C700CF9136 /* ContentView.swift in Sources */,
+				1913DFC2255CF9B9006CD974 /* InfoView.swift in Sources */,
 				19D7E253255B85C700CF9136 /* Parsa_CardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
